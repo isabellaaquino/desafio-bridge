@@ -48,5 +48,5 @@ def viewAll(request):
         'allNumbers': allNumbers
     }
     
-    return render(request, "C:/Python39/Desafio/Desafioproj/templates/historico.html", context)
+    return render(request, "historico.html", context)
 
