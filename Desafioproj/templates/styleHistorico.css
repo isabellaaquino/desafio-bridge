@@ -14,7 +14,7 @@
     height: 13vh;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     box-shadow: 0px 1px 13px grey;  
 }
 

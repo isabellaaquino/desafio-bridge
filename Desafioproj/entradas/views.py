@@ -13,7 +13,7 @@ def createEntradas(request):
         
     else:
         form = NumberForm
-        return render(request, "C:/Python39/Desafio/Desafioproj/templates/home.html", {'form': form})
+        return render(request, "home.html", {'form': form})
 
 def viewEntradas(request):
     obj = Number.objects.last()
@@ -38,7 +38,7 @@ def viewEntradas(request):
         'primos': obj.primos
     }
     
-    return render(request, "C:/Python39/Desafio/Desafioproj/templates/resultado.html", context)
+    return render(request, "resultado.html", context)
 
 
 def viewAll(request):
