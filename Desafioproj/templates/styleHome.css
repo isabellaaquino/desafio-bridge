@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+:root{ 
+    --blue: #0099FF;
+    --gray: #2D2C2C;
+    --clear: #333333;   
+
+}
+
+.headerContainer {
+    background-color: var(--blue);
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    box-shadow: 0px 1px 13px grey;  
+}
+
+.headerContainer .options{
+    padding: 0 0 0 900px;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerContainer .options input#homeB{
+    border: none;
+    font-weight: 500;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.headerContainer .options input#histB{
+    border: none;
+    font-weight: 500;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-family: "Fira Sans",sans-serif;
+}
+
+
+.icon {
+    margin-left: 60px;
+}
+
+.headerContainer .icon img{
+    transform: scale(1.4);
+}
+
+.textContent {
+    padding: 35px;
+}
+
+
+.textContent p {
+    font-family: "Fira Sans",sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: var(--gray);
+    text-align: center;
+}
+
+
+
+.contentContainer .form .enviarB .Enviar{
+    border: none;
+    background-color: black;
+    font-family: "Fira Sans",sans-serif;
+    color: white;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contentContainer .form label{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+.contentContainer .form{
+    text-align: center;
+}
+
+.contentContainer .form .enviarB {
+    padding: 50px 0 0 0;
+}
+
+.bottomContainer {
+    text-align: center;
+    padding: 30px 0 0 0;
+    opacity: 25%;
+}
+
+.bottomContainer p{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: var(--gray);
+    text-align: center;
+}
+
+
+
+

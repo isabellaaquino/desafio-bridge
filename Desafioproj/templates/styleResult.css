@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+:root{ 
+    --blue: #0099FF;
+    --gray: #2D2C2C;
+    --clear: #333333;   
+
+}
+
+.headerContainer {
+    background-color: var(--blue);
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    box-shadow: 0px 1px 13px grey;  
+}
+
+.headerContainer .options{
+    padding: 0 0 0 900px;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerContainer .options input#homeB{
+    border: none;
+    font-weight: 500;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.headerContainer .options input#histB{
+    border: none;
+    font-weight: 500;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-family: "Fira Sans",sans-serif;
+}
+
+
+.icon {
+    margin-left: 60px;
+}
+
+.headerContainer .icon img{
+    transform: scale(1.4);
+}
+
+.textContent {
+    padding: 40px 0 0 45px;
+}
+
+
+.textContent p {
+    font-family: "Fira Sans",sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--gray);
+    text-align: left;
+}
+
+
+.contentContainer .box-names{
+    padding: 35px 0px 0 45px;
+    
+}
+
+.contentContainer .box-border{
+    border: 2px solid var(--gray);
+    width: 200px;
+    font-family: "Fira Sans",sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.contentContainer .box-borderL{
+    padding: 5px 0 0 0;
+    width: 1300px;
+    height: auto;
+    border: 2px solid var(--gray);
+    font-family: "Fira Sans",sans-serif;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.contentContainer .box-names p{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--gray);
+    text-align: left;
+}
+
+.bottomContainer {
+    text-align: center;
+    padding: 50px 0 0 0;
+    opacity: 25%;
+}
+
+.bottomContainer p{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: var(--gray);
+    text-align: center;
+}
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link href="{% static "styleResult.css" %}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{% static "bridge.png" %}" type='image/png' />
+    <title>Desafio Bridge</title>
+</head>
+<body>
+    <div class='headerContainer'> 
+        <div class='icon'>
+            <img src="{% static 'bridge2.svg' %}" alt="My image">
+        </div>
+        <div class='options'>
+            <form action='/'>
+                <input value='Home' type='submit' id='homeB'>
+                </input>
+            </form>
+            <form action='/historico'>
+                <input value='Histórico' type='submit' id='histB'>
+                </input>
+            </form> 
+        </div>
+    </div>
+    <div class='contentContainer'>
+        <div class='textContent'> 
+            <p>Resultado<span style="color:#0099FF">_</span> </p>    
+        </div>
+        
+        <div class='box-names'>
+            <p>Maior número:</p>
+            <div class='box-border'>
+                {{n2}}
+            </div>
+        </div>
+        <div class='box-names'>
+            <p>Menor número:</p>
+            <div class='box-border'>
+              {{n1}}
+            </div>
+        </div>
+        <div class='box-names'>
+            <p>Primos entre eles:</p>
+            <div class='box-borderL'>
+                {{primos}}
+            </div>
+        </div>
+        <div class='form'>
+        </div>  
+    <div class='bottomContainer'>
+        <div class='logo'> 
+            <p>b<span style="color:#0099FF">_</span></p>
+        </div>
+    </div> 
+    </div> 
+    
+</body>
+</html>
