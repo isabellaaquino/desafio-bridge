@@ -27,7 +27,8 @@ def viewEntradas(request):
             if i%c==0:
                 cont+=1
         if cont==0:
-            obj.primos.append(i)
+            if i > 1:
+                obj.primos.append(i)
         cont = 0
     obj.save(update_fields=['primos'])
             
